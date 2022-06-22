@@ -1,11 +1,21 @@
 h1 {
     color:aquamarine;
     font-size: 100px;
-    background-color: black;
+    background-color: gray;
 }
 
 h2 {
     color:black;
-    font-size: 10px;
-    background-color: blue;
+    font-size: 30px;
+    background-color: lightgray;
+}
+
+cheese-list {
+    background-color: antiquewhite;
+    font-size: 50px;
+}
+
+monologue {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
