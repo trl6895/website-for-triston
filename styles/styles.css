@@ -1,21 +1,49 @@
 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:aquamarine;
     font-size: 100px;
     background-color: gray;
 }
 
 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
     font-size: 30px;
     background-color: lightgray;
 }
 
 cheese-list {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: antiquewhite;
     font-size: 50px;
 }
 
 monologue {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    padding: 14px 16px;
+    background-color: #dddddd;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #111;
 }
