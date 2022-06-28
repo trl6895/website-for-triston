@@ -4,6 +4,9 @@ A personal/professional website for myself (Triston)
 ## Requirements
 - A good browser (preferably not IE)
 
+## Access
+- tristonlincoln.com
+
 ## Ideas/Concepts
 
 ### Language Usage
