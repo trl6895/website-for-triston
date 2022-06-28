@@ -10,9 +10,11 @@ A personal/professional website for myself (Triston)
 ## Ideas/Concepts
 
 ### Language Usage
-This website is going to start out using just HTML and CSS. 
+This website is currently just using just HTML and CSS. 
 Once the website is presentable and the vast majority of the pages are setup,
-I plan to use angular, a typescript framework, to add extra interactivity/style
+I plan to use Angular, a typescript framework, to add extra interactivity/style
+
+https://angular.io/guide/file-structure : reference for later
 
 ### Contents
 Planning to include 3 main pages, those being...
