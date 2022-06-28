@@ -16,8 +16,7 @@ Planning to include 3 main pages, those being...
 
 - ##### Home: The landing page
 - ##### Interests: A page that leads to subpages which go into some detail about my interests/hobbies...
-  - ###### Games:  A page including short blurbs/pictures of some of my favorite recent games.
-                   Group games by genre?
+  - ###### Games:  A page including short blurbs/pictures of some of my favorite recent games. Group games by genre?
   - ###### Sports: Basking ball and Volling ball. Statistical analysis of baseball (embed FB video?)
   - ###### Music:  Saxophone and Frank Ocean and stuff
 - ##### Resume: pdf viewer of my resume
