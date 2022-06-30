@@ -12,7 +12,8 @@ A personal/professional website for myself (Triston)
 ### Language Usage
 This website is currently just using just HTML and CSS. 
 Once the website is presentable and the vast majority of the pages are setup,
-I plan to use Angular, a typescript framework, to add extra interactivity/style
+I plan to use Angular, a typescript framework, to add extra interactivity if that
+becomes necessary with what I want to build on this website
 
 https://angular.io/guide/file-structure : reference for later
 
@@ -25,3 +26,7 @@ Planning to include 3 main pages, those being...
   - ###### Sports: Basking ball and Volling ball. Statistical analysis of baseball (embed FB video?)
   - ###### Music:  Saxophone and Frank Ocean and stuff
 - ##### Resume: pdf viewer of my resume
+
+### Misc
+I plan to use parallax scrolling for cool effects, particularly on the Games Page? (Background imgs would be game art)
+
