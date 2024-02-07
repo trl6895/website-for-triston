@@ -1,6 +1,7 @@
 * {
     font-family: Quicksand, Arial, sans-serif;
     /*border: 2px solid red;*/
+    font-size: 20px;
 }
 
 h1 {
@@ -17,6 +18,7 @@ header {
     grid-column: 1/5;
     display: flex;
     background-color: #88A09E;
+    margin: 0px;
 }
 
 #name-title {
@@ -40,6 +42,7 @@ header {
     background-color: white;
     display: grid;
     grid-template-columns: 1.25fr 0.75fr 0.75fr 0.75fr;
+    background-color: rgb(204, 217, 216);
     gap: 30px;
     margin: 0px;
 }
@@ -71,7 +74,7 @@ header {
 }
 
 .nav-item a:active {
-    background-color: blue;
+    color: black;
 }
 
 #hello {
@@ -94,4 +97,36 @@ footer {
     gap: 30px;
     justify-content: center;
     align-items: center;
+}
+
+/* -- Interests -- */
+
+.sub-page-container {
+    background-color: white;
+    margin: 0px;
+    background-color: rgb(204, 217, 216);
+}
+
+.sub-page-contents {
+    margin: auto;
+    padding-left: 30px;
+    background-color: rgb(204, 217, 216);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sub-page-header {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 128px;
+}
+
+.all-interests {
+    flex-basis: 10%;
+    display: flex;
+}
+
+.interest-pic {
+    width: 400px;
 }
