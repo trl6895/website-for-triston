@@ -1,35 +1,97 @@
 * {
-    font-family: Ubuntu, Arial, sans-serif;
-    border: 2px solid red;
+    font-family: Quicksand, Arial, sans-serif;
+    /*border: 2px solid red;*/
+}
+
+h1 {
+    font-family: Protest Riot, Arial, sans-serif;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 36px; 
 }
 
 header {
-    color: whitesmoke;
-    grid-column: 1/4;
+    grid-column: 1/5;
+    display: flex;
+    background-color: #88A09E;
 }
 
-nav {
-    background-color: #558B6E;
-    grid-column: 1/2;
+#name-title {
+    color: black;
+    background-color: #88A09E;
+    flex-basis: 60%;
+}
+
+.pages {
+    flex-basis: 40%;
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+    justify-content: flex-end;
 }
 
 .container {
-    background-color: #2B2D42;
+    background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1.5fr 2.5fr;
-}
-
-.contact {
-    margin-right
+    grid-template-columns: 1.25fr 0.75fr 0.75fr 0.75fr;
+    gap: 30px;
+    margin: 0px;
 }
 
 .main-content {
     background-color: #88A09E;
-    grid-column: 2/4;
-    display: flex;
-    flex-direction: row;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+.main-text {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    font-size: 20px;
+    margin: auto;
+}
+
+.img-container {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    border: black 3px;
+    background-color: rgb(192, 192, 175);
+    border-radius: 15% 50% / 15% 25%;
+}
+
+.img-container h3 {
+    padding-left: 25%;
+    font-size: 24px;
 }
 
 .nav-item a:active {
-    background-color: #333;
+    background-color: blue;
+}
+
+#hello {
+    grid-column: 3/5;
+    font-size: 128px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#head-shot {
+    width: 360px;
+    height: 360px;
+    border-radius: 15% 50% / 15% 25%;
+}
+
+footer {
+    grid-row: 4/5;
+    grid-column: 1/5;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
