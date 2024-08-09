@@ -14,6 +14,10 @@ h2 {
     font-size: 36px; 
 }
 
+p {
+    max-width: 600px;
+}
+
 header {
     grid-column: 1/5;
     display: flex;
@@ -131,9 +135,9 @@ footer {
 }
 
 .sub-page-header {
-    flex-basis: 25%;
     text-align: center;
     font-size: 128px;
+    width: 100%;
 }
 
 .all-interests {
