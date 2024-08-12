@@ -1,6 +1,7 @@
+/** Generic Site Wide Styles **/
+
 * {
     font-family: Quicksand, Arial, sans-serif;
-    /*border: 2px solid red;*/
     font-size: 20px;
 }
 
@@ -26,6 +27,22 @@ header {
     margin: 0px;
 }
 
+a {
+    box-shadow: inset 0 0 0 0 rgb(8, 109, 148);
+    color: rgb(8, 109, 148);
+    margin: 0 -.25rem;
+    padding: 0 .5rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: inset 100px 0 0 0 rgb(8, 109, 148);
+    color: white;
+}
+
+/** Header Styles **/
+
 #name-title {
     color: black;
     background-color: #88A09E;
@@ -42,6 +59,35 @@ header {
     margin-right: 20px;
     justify-content: flex-end;
 }
+
+.hamburger-pages {
+    display: none;
+    grid-column: 1/4;
+    width: 100vw;
+    background-color: rgb(192, 192, 175);
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+.hamburger-pages-sub-page {
+    margin-top: 0px;
+}
+
+.hamburger-pages a {
+    width: 100vw;
+    padding: 0px;
+    text-align: center;
+}
+
+.hamburger-pages a:hover {
+    box-shadow: inset 100vw 0 0 0 rgb(8, 109, 148);
+}
+
+#hamburger-link {
+    padding: 45px 45px;
+}
+
+/** Home Page Styles **/
 
 .container {
     background-color: white;
@@ -90,20 +136,6 @@ header {
     color: black;
 }
 
-a {
-    box-shadow: inset 0 0 0 0 rgb(8, 109, 148);
-    color: rgb(8, 109, 148);
-    margin: 0 -.25rem;
-    padding: 0 .5rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    text-decoration: none;
-}
-
-a:hover {
-    box-shadow: inset 100px 0 0 0 rgb(8, 109, 148);
-    color: white;
-}
-
 #hello {
     grid-row: 3/4;
     grid-column: 3/4;
@@ -130,7 +162,7 @@ footer {
     margin: auto 20px
 }
 
-/* -- Interests -- */
+/** Interests and Project Sub Page Styles **/
 
 .sub-page-container {
     background-color: white;
@@ -170,6 +202,8 @@ footer {
     width: 400px;
 }
 
+/** Resume Page Styles **/
+
 #resume-embed {
     width: 80vw;
     height: 70vh;
@@ -177,11 +211,21 @@ footer {
 
 #resume-container {
     margin: auto 10vw;
+
+    animation: fadeInSecond ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #resume-container p {
     max-width: 80vw;
+
+    animation: fadeInSecond ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+
+/** Animation Keyframes **/
 
 @keyframes fadeIn {
     0% {
@@ -204,32 +248,7 @@ footer {
     } 
 }
 
-.hamburger-pages {
-    display: none;
-    grid-column: 1/4;
-    width: 100vw;
-    background-color: rgb(192, 192, 175);
-    flex-direction: column;
-    margin-top: -30px;
-}
-
-.hamburger-pages-sub-page {
-    margin-top: 0px;
-}
-
-.hamburger-pages a {
-    width: 100vw;
-    padding: 0px;
-    text-align: center;
-}
-
-.hamburger-pages a:hover {
-    box-shadow: inset 100vw 0 0 0 rgb(8, 109, 148);
-}
-
-#hamburger-link {
-    padding: 45px 45px;
-}
+/** Media Queries **/
 
 @media (min-width: 0px) and (max-width: 760px) {
     .pages {
