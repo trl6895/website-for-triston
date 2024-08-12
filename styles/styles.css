@@ -170,6 +170,19 @@ footer {
     width: 400px;
 }
 
+#resume-embed {
+    width: 80vw;
+    height: 70vh;
+}
+
+#resume-container {
+    margin: auto 10vw;
+}
+
+#resume-container p {
+    max-width: 80vw;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
