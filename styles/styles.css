@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px; 
+    font-size: 128px; 
 }
 
 p {
@@ -62,7 +62,7 @@ header {
     grid-row: 4/5;
     grid-column: 3/4;
     font-size: 20px;
-    margin: auto;
+    margin: auto 20px;
 
     animation: fadeInSecond ease 5s;
     animation-iteration-count: 1;
@@ -107,7 +107,6 @@ a:hover {
 #hello {
     grid-row: 3/4;
     grid-column: 3/4;
-    font-size: 128px;
 
     animation: fadeInSecond ease 3s;
     animation-iteration-count: 1;
@@ -127,6 +126,7 @@ footer {
     gap: 30px;
     justify-content: center;
     align-items: center;
+    margin: auto 20px
 }
 
 /* -- Interests -- */
@@ -140,6 +140,7 @@ footer {
 .sub-page-contents {
     margin: auto;
     padding-left: 30px;
+    padding: 0px 20px;
     background-color: rgb(204, 217, 216);
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +153,6 @@ footer {
 
 .sub-page-header {
     text-align: center;
-    font-size: 128px;
     width: 100%;
 
     animation: fadeIn ease 3s;
@@ -190,7 +190,7 @@ footer {
     } 
 }
 
-#hamburger-pages {
+.hamburger-pages {
     display: none;
     grid-column: 1/4;
     width: 100vw;
@@ -199,13 +199,17 @@ footer {
     margin-top: -30px;
 }
 
-#hamburger-pages a {
+.hamburger-pages-sub-page {
+    margin-top: 0px;
+}
+
+.hamburger-pages a {
     width: 100vw;
     padding: 0px;
     text-align: center;
 }
 
-#hamburger-pages a:hover {
+.hamburger-pages a:hover {
     box-shadow: inset 100vw 0 0 0 rgb(8, 109, 148);
 }
 
@@ -228,6 +232,26 @@ footer {
     }
 }
 
+@media (min-width: 0px) and (max-width: 520px) {
+    h1 {
+        font-size: 32px;
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    h2 {
+        font-size: 86px;
+    }
+
+    .interest-pic {
+        width: 340px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
 @media (min-width: 760px) {
     .pages {
         display: flex;
@@ -237,7 +261,7 @@ footer {
         display: none;
     }
 
-    #hamburger-pages {
+    .hamburger-pages {
         display: none!important;
     }
 }

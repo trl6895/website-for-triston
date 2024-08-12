@@ -1,5 +1,5 @@
 function toggleHamburgerItems() {
-    var linksList = document.getElementById("hamburger-pages");
+    var linksList = document.getElementsByClassName("hamburger-pages")[0];
     if (linksList.style.display === "flex") {
         linksList.style.display = "none";
     }
@@ -12,7 +12,7 @@ function toggleHamburgerItems() {
 }
 
 function hideHamburgerItems() {
-    var linksList = document.getElementById("hamburger-pages");
+    var linksList = document.getElementsByClassName("hamburger-pages")[0];
     linksList.style.display = "none";
     return;
 }
