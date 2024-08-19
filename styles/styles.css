@@ -263,6 +263,10 @@ footer {
     #hello {
         margin: auto;
     }
+
+    footer {
+        margin-bottom: 20px; 
+    }
 }
 
 @media (min-width: 0px) and (max-width: 520px) {
